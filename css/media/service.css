@@ -1,0 +1,13 @@
+@media screen and (max-width: 719px) {
+    .service .container .row {
+        display: block;
+    }
+
+    .service .container .row::after {
+        display: block;
+    }
+
+    .service .service__item {
+        margin-top: 20px;
+    }
+}

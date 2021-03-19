@@ -1,0 +1,31 @@
+@media screen and (max-width: 719px) {
+    .advantages .advantages__item {
+        justify-content: flex-start;
+    }
+
+    .advantages .advantages__item:first-child {
+        margin-top: 0;
+    }
+
+    .advantages .advantages__item {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 35px;
+    }
+
+    .advantages .advantages__item .advantages__item-left img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 57.5px;
+        margin-right: 30px;
+    }
+
+    .advantages .container .row {
+        display: block;
+    }
+
+    .advantages .container .row::after {
+        display: block;
+    }
+}

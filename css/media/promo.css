@@ -1,0 +1,32 @@
+@media screen and (max-width: 719px) {
+    .promo .container .row {
+        display: block;
+    }
+
+    .promo .container .row::after {
+        display: block;
+    }
+
+    .promo .promo__info h1 {
+        margin: 0 auto;
+    }
+
+    .promo .promo__info p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .promo button {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .promo .promo__img {
+        margin-top: 50px;
+        border: none;
+    }
+    
+    .promo .promo__img img {
+        transform: translate(0px, 0px);
+    }
+}

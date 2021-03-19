@@ -1,0 +1,10 @@
+@media screen and (max-width: 719px) {
+    .footer .footer__links ul {
+        padding-left: 0;
+    }
+
+    .footer .footer__contacts {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,13 @@
+.aboutUs {
+    padding: 20px 0 0 0;
+}
+
+.aboutUs .aboutUs__title {
+    text-align: center;
+}
+
+.aboutUs .aboutUs__text p {
+    font-size: 16px;
+    /* color: rgb(148, 148, 148); */
+    color: #000;
+}
