@@ -62,6 +62,10 @@
     font-size: 30px;
 }
 
+/* .reviews .reviews__next img, .reviews .reviews__prev img {
+    background-color: var(--main-color);
+} */
+
 .slider-dots {
     position: absolute;
     right: 0;
