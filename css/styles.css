@@ -1,5 +1,7 @@
+@import './branches.css';
+
 :root {
-    --main-color: #495057;
+    --main-color: #13316e;
     --yellow: #fed330;
     --black: #333447;
     --grey: #ecf0f1;
@@ -313,7 +315,7 @@ img {
 .promo {
     min-height: 300px;
     padding: 100px 0;
-    background-color: #ADB5BD;
+    background-color: #f8f9fa;
     /* background: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center center/cover no-repeat; */
 }
 
@@ -336,16 +338,16 @@ img {
 }
 
 .promo .promo__info h1 {
-    color: #000;
+    color: #343a40;
 }
 
 .promo .promo__info p {
     font-size: calc(10px + 8 * ((100vw - 300px) / (1920 - 320)));
-    color: #000;
+    color: #343a40;
 }
 
 .promo button {
-    background-color: #000;
+    background-color: #13316e;
     border: none;
     padding: 10px 50px;
     font-size: 16px;
@@ -355,12 +357,12 @@ img {
 }
 
 .promo button:hover {
-    background-color: var(--main-color);
+    background-color: #081b44;
     cursor: pointer;
 }
 
 .promo .promo__img {
-    border: 10px solid #fff;
+    border: 10px solid #c6cfe1;
 }
 
 .promo .promo__img img {
@@ -369,17 +371,27 @@ img {
 
 .service {
     padding: 0 0 50px 0;
+    background-color: #f8f9fa;
 }
+
+
 
 .service .service__title {
     text-align: center;
 }
 
 .service .service__item {
-    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
-    border: 2px solid var(--main-color);
+  box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+  background-color: #fff;
     padding: 10px;
     margin: 0px 0px;
+    border-radius: 5px;
+}
+
+.service__item:hover {
+transform: translateY(-5px);
+transition: all ease .5s;
+    
 }
 
 .service .container .row {
@@ -410,7 +422,7 @@ img {
     margin: 0;
     padding: 0 24px 20px 24px;
     /* color: rgb(148, 148, 148); */
-    color: #000;
+    color: #343a40;
 }
 
 .aboutUs {
@@ -424,7 +436,7 @@ img {
 .aboutUs .aboutUs__text p {
     font-size: 16px;
     /* color: rgb(148, 148, 148); */
-    color: #000;
+    color: #343a40;
 }
 
 .reviews {
@@ -438,7 +450,7 @@ img {
 
 .reviews__info {
     position: relative;
-    background-color: rgb(221, 221, 221);
+ 
     padding: 25px;
 }
 
@@ -522,8 +534,9 @@ img {
 }
 
 .accordion__item-trigger {
+    color: #000;
     padding: 20px;
-    background-color: var(--main-color);
+    background-color: #c6cfe1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -543,12 +556,13 @@ img {
 }
 
 .accordion__item-answer {
+    color: #000;
     padding: 20px;
     border-top: none;
     display: none;
     transform: translateY(-50px);
     transition: all .3s;
-    background-color: var(--main-color);
+    background-color: #9eaac0;
     margin-top: 2px;
 }
 
@@ -599,9 +613,11 @@ img {
 }
 
 .advantages {
+    background: #c6cfe1;
+
     padding: 50px 0;
-    border-bottom: 1px solid #000;
-    border-top: 1px solid #000;
+  
+  
 }
 
 .advantages .advantages__item {
@@ -629,7 +645,7 @@ img {
     margin: 0;
     font-size: 16px;
     /* color: rgb(148, 148, 148); */
-    color: #000;
+    color: #343a40;
 }
 
 .advantages .container .row {
@@ -643,11 +659,11 @@ img {
 
 .ourContacts {
     padding: 20px 0 0 0;
-    background-color: var(--main-color);
+    background-color: #c6cfe1;
 }
 
 .ourContacts .ourContacts__info h3, .ourContacts .ourContacts__info p {
-    color: var(--text);
+    color: #343a40;
 }
 
 .ourContacts .ourContacts__info h3 {
@@ -666,19 +682,20 @@ img {
 }
 
 .ourContacts .ourContacts__btn a {
+    color: #fff;
     padding: 10px 50px;
     border-radius: 5px;
-    background-color: var(--grey);
+    background-color: #13316e;
     text-decoration: none;
     font-size: 26px;
 }
 
 .ourContacts .ourContacts__btn a:hover {
-    background-color: var(--text);
+    background-color: #081b44;
 }
 
 body {
-    background-color: #ecf0f1;
+    background-color: #f8f9fa;
 }
 
 .up {
@@ -689,7 +706,7 @@ body {
     bottom: 10%;
     right: 3%;
     z-index: 5;
-    background-color: #22223b;
+    background-color: #000;
     border-radius: 100%;
     text-decoration: none;
     transition: all .5s;
@@ -719,16 +736,16 @@ body {
         bottom: 20%;
         right: 3%;
         z-index: 5;
-        background-color: rgb(13, 216, 13);
+        background-color: #23b615;
         border-radius: 100%;
         text-decoration: none;
     }
     
     .call .callIcon {
+        padding: 5px;
         width: 40px;
         color: #fff;
         animation-name: phone-circle;
-        animation-duration: .5s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
     }
@@ -746,6 +763,16 @@ body {
     }
 }
 
+@media screen and (max-width: 1160px) {
+    .header .header__nav ul {
+        padding-left: 0;
+    }
+
+    .header .header__nav ul li a {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 1050px) {
     .header .header__logo {
         width: 30%;
@@ -753,6 +780,12 @@ body {
 
     .header nav {
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 889px) {
+    .header .header__nav ul li a {
+        font-size: 11px;
     }
 }
 
@@ -782,12 +815,12 @@ body {
         margin: 0 auto;
         background: none;
         border: none;
-        font-size: 30px;
-        height: 50px;
+       
+        height: 25px;
         cursor: pointer;
     }
 
-    .header nav.col-6 {
+    .header nav.col-10 {
         margin: 0 0;
     }
 
@@ -800,9 +833,10 @@ body {
         padding: 10px;
     }
 
-    .header nav ul li a {
+    .header .header__nav ul li a {
         display: flex;
         justify-content: center;
+        font-size: 18px;
     }
     
     .header .header__humburger {
@@ -831,6 +865,11 @@ body {
 }
 
 @media screen and (max-width: 719px) {
+    .promo {
+        background: url('../img/promoMobile.webP') center center/cover no-repeat;
+        padding-bottom: 50px;
+    }
+
     .promo .container .row {
         display: block;
     }
@@ -840,12 +879,14 @@ body {
     }
 
     .promo .promo__info h1 {
+        color: #fff;
         margin: 0 auto;
     }
 
     .promo .promo__info p {
         text-align: center;
         font-size: 16px;
+        color: #fff;
     }
 
     .promo button {
@@ -854,8 +895,7 @@ body {
     }
 
     .promo .promo__img {
-        margin-top: 50px;
-        border: none;
+        display: none;
     }
     
     .promo .promo__img img {

@@ -196,4 +196,16 @@ window.addEventListener('DOMContentLoaded', () => {
             upElement.classList.remove('up_show');
         }
     });
+
+    // Show branches
+
+    document.querySelector('.branches__btn').addEventListener('click', () => {
+        const wrapper = document.querySelector('.branches__wrapper');
+
+        if (wrapper.classList.contains('showBranches')) {
+            wrapper.classList.remove('showBranches');
+        } else {
+            wrapper.classList.add('showBranches');
+        }
+    });
 });
