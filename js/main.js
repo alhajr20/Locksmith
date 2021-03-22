@@ -199,13 +199,17 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Show branches
 
-    document.querySelector('.branches__btn').addEventListener('click', () => {
+    const branchesBtn = document.querySelector('.branches__btn');
+
+    branchesBtn.addEventListener('click', () => {
         const wrapper = document.querySelector('.branches__wrapper');
 
         if (wrapper.classList.contains('showBranches')) {
             wrapper.classList.remove('showBranches');
+            branchesBtn.textContent = 'Zeigen';
         } else {
             wrapper.classList.add('showBranches');
+            branchesBtn.textContent = 'Ausblenden';
         }
     });
 });
