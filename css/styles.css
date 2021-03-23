@@ -31,11 +31,11 @@ body {
 /* TYPOGRAPHY */
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 h3 {
@@ -66,6 +66,10 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+a[href^="tel"] {
+    font-size: 16px;
 }
 
 .font-light {
@@ -273,14 +277,13 @@ img {
 .header .header__logo {
     display: flex;
     align-items: center;
-    font-size: 30px;
     font-weight: bold;
     color: #fff;
     cursor: pointer;
 }
 
 .header .header__logo img {
-    width: 50%;
+    width: 25%;
 }
 
 .header .row::after {
@@ -357,7 +360,7 @@ img {
     color: #343a40;
 }
 
-.promo button {
+.promo .promo__info a {
     background-color: #13316e;
     border: none;
     padding: 10px 50px;
@@ -365,9 +368,10 @@ img {
     color: #fff;
     border-radius: 5px;
     transition: all .5s;
+    text-decoration: none;
 }
 
-.promo button:hover {
+.promo .promo__info a:hover {
     background-color: #081b44;
     cursor: pointer;
 }
@@ -429,9 +433,9 @@ transition: all ease .5s;
 
 .service .service__item p {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
-    padding: 0 24px 20px 24px;
+    padding: 0 15px 20px 15px;
     /* color: rgb(148, 148, 148); */
     color: #343a40;
 }
@@ -699,7 +703,6 @@ transition: all ease .5s;
     border-radius: 5px;
     background-color: #13316e;
     text-decoration: none;
-    font-size: 26px;
 }
 
 .ourContacts .ourContacts__btn a:hover {
@@ -812,6 +815,10 @@ body {
         z-index: 2;
     }
 
+    .header .header__logo {
+        width: 50%;
+    }
+
     .header nav {
         position: fixed;
         width: 100%;
@@ -901,6 +908,7 @@ body {
     .promo .promo__info h1 {
         color: #fff;
         margin: 0 auto;
+        text-align: center;
     }
 
     .promo .promo__info p {
@@ -909,7 +917,7 @@ body {
         color: #fff;
     }
 
-    .promo button {
+    .promo .promo__info a {
         margin: 0 auto;
         margin-top: 20px;
     }
@@ -1112,5 +1120,11 @@ body {
 
     .branches .branches__wrapper ul {
         margin-top: 30px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .accordion .accordion__wrapper .accordion__item .accordion__item-trigger {
+        padding: 10px;
     }
 }
