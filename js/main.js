@@ -185,18 +185,6 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Up
-
-    const upElement = document.querySelector('.up');
-
-    window.addEventListener('scroll', () => {
-        if (document.documentElement.scrollTop > 500) {
-            upElement.classList.add('up_show');
-        } else {
-            upElement.classList.remove('up_show');
-        }
-    });
-
     // Show branches
 
     const branchesBtn = document.querySelector('.branches__btn');
