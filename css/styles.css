@@ -1075,6 +1075,10 @@ body {
     text-align: center;
 }
 
+/* .branches .branches__title {
+    text-align: center;
+}
+
 .branches .branches__wrapper {
     display: flex;
     justify-content: space-between;
@@ -1106,17 +1110,17 @@ body {
 
 .branches .branches__wrapper ul li a:hover {
     text-decoration: underline;
-}
+} */
 
 /* .branches .showBranches ul li {
 } */
 
-.branches .showBranches {
+/* .branches .showBranches {
     overflow: visible;
     max-height: 100%;
-}
+} */
 
-.branches button {
+/* .branches button {
     display: block;
     margin: 0 auto;
     margin-top: 20px;
@@ -1126,9 +1130,9 @@ body {
     padding: 10px 30px;
     cursor: pointer;
     border-radius: 5px;
-}
+} */
 
-@media only screen and (max-width: 719px) {
+/* @media only screen and (max-width: 719px) {
     .branches .branches__wrapper {
         display: flex;
         flex-direction: column;
@@ -1143,5 +1147,80 @@ body {
 
     .accordion .accordion__wrapper .accordion__item .accordion__item-trigger {
         padding: 10px;
+    }
+} */
+
+.branches .branches__links {
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.branches .branches__links ul {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.branches .branches__links ul li {
+    border: 1px solid rgb(189, 189, 189);
+    /* padding: 10px; */
+    border-bottom: none;
+}
+
+.branches .branches__links ul:first-child li {
+    border-right: none;
+}
+
+.branches .branches__links ul li a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    color: var(--main-color);
+    text-decoration: none;
+    transition: all .5s;
+    /* padding: 10px; */
+}
+
+.branches .branches__links ul li a img {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.branches .branches__links ul li a:hover {
+    background-color: #ddd;
+}
+
+.payment {
+    padding-bottom: 50px;
+}
+
+.payment .payment__title {
+    text-align: center;
+}
+
+.payment .payment__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment .payment__item img {
+    width: 250px;
+    height: 200px;
+}
+
+@media screen and (max-width: 400px) {
+    .branches .branches__links ul li a {
+        padding: 10px;
+        font-size: 12px;
     }
 }
