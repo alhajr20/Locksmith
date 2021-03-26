@@ -246,18 +246,24 @@
         <div class="container">
             <h2 class="accordion__title">Fragen und Antworten</h2>
             <div class="accordion__wrapper">
-                <div class="accordion__item">
-                    <div class="accordion__item-trigger">
-                        <p>
-                            Wie finde ich den besten Schlosser?
-                        </p>
-                        <img src="./img/add.svg" alt="add">
-                    </div>
-                    <div class="accordion__item-answer">
-                        <p>
-                            Sie sollten zuerst schauen welche Art von Dienstleistung Sie benötigen und ob der von Ihnen ausgewählte Schlüsseldienst auch diese gewünschte Leistung erbringen kann.
-                            Sie profitieren immer davon wenn Sie wissen was Sie von Ihrem technischen Schloss benötigen, ob Sie von zu Hause ausgesperrt sind oder versehentlich ein Schloss aufgebrochen haben.
-                        </p>
+                <div itemscope itemtype="http://schema.org/Question">
+                    <div class="accordion__item">
+                        <div class="accordion__item-trigger">
+                            <p itemprop="name">
+                                Wie finde ich den besten Schlosser?
+                            </p>
+                            <img src="./img/add.svg" alt="add">
+                        </div>
+                        
+                        <div class="accordion__item-answer">
+                            <div itemprop="acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
+                                <meta itemprop="upvoteCount" content="3" />
+                                <p itemprop="text">
+                                    Sie sollten zuerst schauen welche Art von Dienstleistung Sie benötigen und ob der von Ihnen ausgewählte Schlüsseldienst auch diese gewünschte Leistung erbringen kann.
+                                    Sie profitieren immer davon wenn Sie wissen was Sie von Ihrem technischen Schloss benötigen, ob Sie von zu Hause ausgesperrt sind oder versehentlich ein Schloss aufgebrochen haben.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="accordion__item">
@@ -333,14 +339,7 @@
         <h2 class="branches__title">Standorte</h2>
         <div class="row">
             <div class="col-6 branches__map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5805.841781873469!2d45.6929560584799!3d43.31591544962637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4051d3e41e4f142d%3A0xb7b96b83453e05!2z0KHQtdGA0LTRhtC1INCn0LXRh9C90Lg!5e0!3m2!1sru!2sru!4v1616587471102!5m2!1sru!2sru"
-                width="100%"
-                height="400px"
-                style="border: 0;"
-                allowfullscreen=""
-                loading="lazy"
-              ></iframe>
+                <div id="map"></div>
             </div>
             <div class="col-6 branches__links">
               <ul>
@@ -427,6 +426,13 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        const map = L.map('map', {
+            center: [51.505, -0.09],
+            zoom: 13
+        });
+    </script>
     <script src="./js/main.js"></script>
 </body>
 </html>
