@@ -1155,6 +1155,7 @@ body {
     justify-content: center;
     overflow-y: scroll;
     height: 400px;
+    margin-top: 50px;
 }
 
 .branches .branches__links ul {
