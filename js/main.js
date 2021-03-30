@@ -184,17 +184,4 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-
-    // Google Maps
-
-    // function initMap() {
-    //     const opt = {
-    //         center: {lat: 52.51971561005578, lng: 13.38902005881948},
-    //         zoom: 8
-    //     };
-
-    //     let map = new google.maps.Map(document.getElementById("map"), opt);
-    // }
-
-    // initMap();
 });
