@@ -11,6 +11,7 @@
     <meta name="description" content="We work with locksmith in Germany">
     <meta name=HandheldFriendly content=True>
     <meta name=format-detection content="telephone=no">
+    <link rel="canonical" href="index.html">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
