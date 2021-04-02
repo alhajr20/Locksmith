@@ -170,7 +170,7 @@ require_once('./question.php');
         <h2 class="branches__title">Standorte</h2>
         <div class="container">
             <div class="col-12 branches__map">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac9a65c2bc1438535cbef374ec37fa71fe2f18c482e4168e6faa9cfb77a52e937&amp;width=100%25&amp;height=400&amp;lang=en_US&amp;scroll=false"></script>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac9a65c2bc1438535cbef374ec37fa71fe2f18c482e4168e6faa9cfb77a52e937&amp;width=100%25&amp;height=400&amp;lang=eu_EU&amp;scroll=false"></script>
             </div>
             <div class="col-12 branches__links">
                 <ul>
@@ -184,32 +184,32 @@ require_once('./question.php');
                     <li><a href="./essen.php"><img src="./img/arrow.svg" alt="arrow">Essen</a></li>
                     <li><a href="./düsseldorf.php"><img src="./img/arrow.svg" alt="arrow">Düsseldorf</a></li>
                     <li><a href="./bremen.php"><img src="./img/arrow.svg" alt="arrow">Bremen</a></li>
-                    <li><a href="./aachen.php"><img src="./img/arrow.svg" alt="arrow">Aachen</a></li>
+                    <li><a href="./aachen.php"><img src="./img/arrow.svg" alt="arrow">Aachen</a></li>//
                     <li><a href="./wolfsburg.php"><img src="./img/arrow.svg" alt="arrow">Wolfsburg</a></li>
                     <li><a href="./wuerzburg.php"><img src="./img/arrow.svg" alt="arrow">Wuerzburg</a></li>
                     <li><a href="./paderborn.php"><img src="./img/arrow.svg" alt="arrow">Paderborn</a></li>
                     <li><a href="./potsdam.php"><img src="./img/arrow.svg" alt="arrow">Potsdam</a></li>
-                    <li><a href="./prenzlauerBergBezirk.php"><img src="./img/arrow.svg" alt="arrow">Prenzlauer Berg Bezirk</a></li>
+                    <li><a href="./prenzlauerBergBezirk.php"><img src="./img/arrow.svg" alt="arrow">Prenzlauer Berg Bezirk</a></li> пере.
                     <li><a href="./oldenburg.php"><img src="./img/arrow.svg" alt="arrow">Oldenburg</a></li>
                     <li><a href="./ludwigshafenAmRhein.php"><img src="./img/arrow.svg" alt="arrow">Ludwigshafen am Rhein</a></li>
-                    <li><a href="./osnabrueck.php"><img src="./img/arrow.svg" alt="arrow">Osnabrueck</a></li>
-                    <li><a href="./muelheim.php"><img src="./img/arrow.svg" alt="arrow">Muelheim</a></li>
-                    <li><a href="./saarbruecken.php"><img src="./img/arrow.svg" alt="arrow">Saarbruecken</a></li>
+                    <li><a href="./osnabrueck.php"><img src="./img/arrow.svg" alt="arrow">Osnabrueck</a></li> пере.
+                    <li><a href="./muelheim.php"><img src="./img/arrow.svg" alt="arrow">Muelheim</a></li> пере.
+                    <li><a href="./saarbruecken.php"><img src="./img/arrow.svg" alt="arrow">Saarbruecken</a></li> пере.
                     <li><a href="./hamm.php"><img src="./img/arrow.svg" alt="arrow">Hamm</a></li>
                     <li><a href="./rostock.php"><img src="./img/arrow.svg" alt="arrow">Rostock</a></li>
                     <li><a href="./harburg.php"><img src="./img/arrow.svg" alt="arrow">Harburg</a></li>
-                    <li><a href="./luebeck.php"><img src="./img/arrow.svg" alt="arrow">Luebeck</a></li>
+                    <li><a href="./luebeck.php"><img src="./img/arrow.svg" alt="arrow">Luebeck</a></li> пере.
                     <li><a href="./oberhausen.php"><img src="./img/arrow.svg" alt="arrow">Oberhausen</a></li>
                     <li><a href="./magdeburg.php"><img src="./img/arrow.svg" alt="arrow">Magdeburg</a></li>
-                    <li><a href="./hamburg-Mitte.php"><img src="./img/arrow.svg" alt="arrow">Hamburg-Mitte</a></li>
+                    <li><a href="./hamburg-Mitte.php"><img src="./img/arrow.svg" alt="arrow">Hamburg-Mitte</a></li> пере.
                     <li><a href="./krefeld.php"><img src="./img/arrow.svg" alt="arrow">Krefeld</a></li>
-                    <li><a href="./altona.php"><img src="./img/arrow.svg" alt="arrow">Altona</a></li>
+                    <li><a href="./altona.php"><img src="./img/arrow.svg" alt="arrow">Altona</a></li> пере.
                     <li><a href="./augsburg.php"><img src="./img/arrow.svg" alt="arrow">Augsburg</a></li>
                     <li><a href="./gelsenkirchen.php"><img src="./img/arrow.svg" alt="arrow">Gelsenkirchen</a></li>
                     <li><a href="./wiesbaden.php"><img src="./img/arrow.svg" alt="arrow">Wiesbaden</a></li>
                     <li><a href="./karlsruhe.php"><img src="./img/arrow.svg" alt="arrow">Karlsruhe</a></li>
-                    <li><a href="./bochum-Hordel.php"><img src="./img/arrow.svg" alt="arrow">Bochum-Hordel</a></li>
-                    <li><a href="./nuernberg.php"><img src="./img/arrow.svg" alt="arrow">Nuernberg</a></li>
+                    <li><a href="./bochum-Hordel.php"><img src="./img/arrow.svg" alt="arrow">Bochum-Hordel</a></li> пере.
+                    <li><a href="./nuernberg.php"><img src="./img/arrow.svg" alt="arrow">Nuernberg</a></li> пере.
                 </ul>
                 <ul>
                     <li><a href="./hannover.php"><img src="./img/arrow.svg" alt="arrow">Hannover</a></li>
@@ -222,31 +222,31 @@ require_once('./question.php');
                     <li><a href="./bielefeld.php"><img src="./img/arrow.svg" alt="arrow">Bielefeld</a></li>
                     <li><a href="./bonn.php"><img src="./img/arrow.svg" alt="arrow">Bonn</a></li>
                     <li><a href="./mannheim.php"><img src="./img/arrow.svg" alt="arrow">Mannheim</a></li>
-                    <li><a href="./braunschweig.php"><img src="./img/arrow.svg" alt="arrow">Braunschweig</a></li>
+                    <li><a href="./braunschweig.php"><img src="./img/arrow.svg" alt="arrow">Braunschweig</a></li> //
                     <li><a href="./regensburg.php"><img src="./img/arrow.svg" alt="arrow">Regensburg</a></li>
                     <li><a href="./darmstadt.php"><img src="./img/arrow.svg" alt="arrow">Darmstadt</a></li>
-                    <li><a href="./heidelberg.php"><img src="./img/arrow.svg" alt="arrow">Heidelberg</a></li>
-                    <li><a href="./bezirkKreuzberg.php"><img src="./img/arrow.svg" alt="arrow">Bezirk Kreuzberg</a></li>
+                    <li><a href="./heidelberg.php"><img src="./img/arrow.svg" alt="arrow">Heidelberg</a></li> пере.
+                    <li><a href="./bezirkKreuzberg.php"><img src="./img/arrow.svg" alt="arrow">Bezirk Kreuzberg</a></li> пере.
                     <li><a href="./neuss.php"><img src="./img/arrow.svg" alt="arrow">Neuss</a></li>
                     <li><a href="./leverkusen.php"><img src="./img/arrow.svg" alt="arrow">Leverkusen</a></li>
-                    <li><a href="./solingen.php"><img src="./img/arrow.svg" alt="arrow">Solingen</a></li>
-                    <li><a href="./neukoelln.php"><img src="./img/arrow.svg" alt="arrow">Neukoelln</a></li>
+                    <li><a href="./solingen.php"><img src="./img/arrow.svg" alt="arrow">Solingen</a></li> пере.
+                    <li><a href="./neukoelln.php"><img src="./img/arrow.svg" alt="arrow">Neukoelln</a></li> пере.
                     <li><a href="./herne.php"><img src="./img/arrow.svg" alt="arrow">Herne</a></li>
                     <li><a href="./mainz.php"><img src="./img/arrow.svg" alt="arrow">Mainz</a></li>
                     <li><a href="./kassel.php"><img src="./img/arrow.svg" alt="arrow">Kassel</a></li>
-                    <li><a href="./hagen.php"><img src="./img/arrow.svg" alt="arrow">Hagen</a></li>
+                    <li><a href="./hagen.php"><img src="./img/arrow.svg" alt="arrow">Hagen</a></li> пере.
                     <li><a href="./erfurt.php"><img src="./img/arrow.svg" alt="arrow">Erfurt</a></li>
                     <li><a href="./freiburg.php"><img src="./img/arrow.svg" alt="arrow">Freiburg</a></li>
                     <li><a href="./neueNeustadt.php"><img src="./img/arrow.svg" alt="arrow">Neue Neustadt</a></li>
                     <li><a href="./kiel.php"><img src="./img/arrow.svg" alt="arrow">Kiel</a></li>
                     <li><a href="./halle.php"><img src="./img/arrow.svg" alt="arrow">Halle(Saale)</a></li>
                     <li><a href="./chemnitz.php"><img src="./img/arrow.svg" alt="arrow">Chemnitz</a></li>
-                    <li><a href="./eimsbuettel.php"><img src="./img/arrow.svg" alt="arrow">Eimsbuettel</a></li>
-                    <li><a href="./moenchengladbach.php"><img src="./img/arrow.svg" alt="arrow">Moenchengladbach</a></li>
+                    <li><a href="./eimsbuettel.php"><img src="./img/arrow.svg" alt="arrow">Eimsbuettel</a></li> пере.
+                    <li><a href="./moenchengladbach.php"><img src="./img/arrow.svg" alt="arrow">Moenchengladbach</a></li> пере.
                     <li><a href="./muenster.php"><img src="./img/arrow.svg" alt="arrow">Muenster</a></li>
-                    <li><a href="./hamburg-Nord.php"><img src="./img/arrow.svg" alt="arrow">Hamburg-Nord</a></li>
-                    <li><a href="./marienthal.php"><img src="./img/arrow.svg" alt="arrow">Marienthal</a></li>
-                    <li><a href="./wandsbek.php"><img src="./img/arrow.svg" alt="arrow">Wandsbek</a></li>
+                    <li><a href="./hamburg-Nord.php"><img src="./img/arrow.svg" alt="arrow">Hamburg-Nord</a></li> пере.
+                    <li><a href="./marienthal.php"><img src="./img/arrow.svg" alt="arrow">Marienthal</a></li> пере.
+                    <li><a href="./wandsbek.php"><img src="./img/arrow.svg" alt="arrow">Wandsbek</a></li> пере.
                 </ul>
             </div>
         </div>
