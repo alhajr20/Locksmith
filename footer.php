@@ -28,7 +28,8 @@
                 <div class="col-3 footer__contacts">
                     <ul>
                         Kontakt
-                        <li><a href="tel: 89287888888">Tel: 8(928)788-88-88</a></li>
+                        <!-- <li><a href="tel: 89287888888">Tel: 8(928)788-88-88</a></li> -->
+                        <li><a href="<?= $phoneLink ?>"><?= $phoneText ?></a></li>
                         <li><a href="mailto:germany@gmail.com">Email: germany@gmail.com</a></li>
                         <li><address>Germany</address></li>
                     </ul>

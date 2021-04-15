@@ -8,9 +8,9 @@
                 </p>
             </div>
             <div class="col-5 ourContacts__btn">
-                <a href="tel:89287888888">
+                <a href="<?= $phoneLink ?>">
                     <img src="./img/phone-call.svg" alt="Schlüsseldienst call">
-                    8(928)788-88-88
+                    <?= $phoneText ?>
                 </a>
             </div>
         </div>
