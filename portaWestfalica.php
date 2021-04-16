@@ -1,5 +1,5 @@
 <?php
-    $promoTitle = 'Schlüsseldienst in Nürnberg';
+    $promoTitle = 'Schlüsseldienst in Porta Westfalica';
     $promoDesc = 'Unser 24h Schlüsseldienst hilft Ihnen jederzeit sofort bei Ihrem Problem!';
 
     $phoneLink = 'tel:89287888888';
