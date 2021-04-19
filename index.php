@@ -68,13 +68,13 @@ require_once('./question.php');
                 <ul>
                     <li><a href="./berlin.php"><img src="./img/arrow.svg" alt="arrow">Berlin</a></li>
                     <li><a href="./hamburg.php"><img src="./img/arrow.svg" alt="arrow">Hamburg</a></li>
-                    <li><a href="./münchen.php"><img src="./img/arrow.svg" alt="arrow">München</a></li>
-                    <li><a href="./köln.php"><img src="./img/arrow.svg" alt="arrow">Köln</a></li>
+                    <li><a href="./muenchen.php"><img src="./img/arrow.svg" alt="arrow">München</a></li>
+                    <li><a href="./koeln.php"><img src="./img/arrow.svg" alt="arrow">Köln</a></li>
                     <li><a href="./frankfurt.php"><img src="./img/arrow.svg" alt="arrow">Frankfurt</a></li>
                     <li><a href="./stuttgart.php"><img src="./img/arrow.svg" alt="arrow">Stuttgart</a></li>
                     <li><a href="./dortmund.php"><img src="./img/arrow.svg" alt="arrow">Dortmund</a></li>
                     <li><a href="./essen.php"><img src="./img/arrow.svg" alt="arrow">Essen</a></li>
-                    <li><a href="./düsseldorf.php"><img src="./img/arrow.svg" alt="arrow">Düsseldorf</a></li>
+                    <li><a href="./duesseldorf.php"><img src="./img/arrow.svg" alt="arrow">Düsseldorf</a></li>
                     <li><a href="./bremen.php"><img src="./img/arrow.svg" alt="arrow">Bremen</a></li>
                     <li><a href="./aachen.php"><img src="./img/arrow.svg" alt="arrow">Aachen</a></li>//
                     <li><a href="./wolfsburg.php"><img src="./img/arrow.svg" alt="arrow">Wolfsburg</a></li>
@@ -102,12 +102,35 @@ require_once('./question.php');
                     <li><a href="./karlsruhe.php"><img src="./img/arrow.svg" alt="arrow">Karlsruhe</a></li>
                     <li><a href="./bochum-Hordel.php"><img src="./img/arrow.svg" alt="arrow">Bochum-Hordel</a></li>
                     <li><a href="./nuernberg.php"><img src="./img/arrow.svg" alt="arrow">Nuernberg</a></li>
+                    <li><a href="./muelheim-an-der-Ruhr.php"><img src="./img/arrow.svg" alt="arrow">Mülheim an der Ruhr</a></li>
+                    <li><a href="./bergisch-Gladbach.php"><img src="./img/arrow.svg" alt="arrow">Bergisch Gladbach</a></li>
+                    <li><a href="./remscheid.php"><img src="./img/arrow.svg" alt="arrow">Remscheid</a></li>
+                    <li><a href="./siegen.php"><img src="./img/arrow.svg" alt="arrow">Siegen</a></li>
+                    <li><a href="./witten.php"><img src="./img/arrow.svg" alt="arrow">Witten</a></li>
+                    <li><a href="./dueren.php"><img src="./img/arrow.svg" alt="arrow">Düren</a></li>
+                    <li><a href="./luenen.php"><img src="./img/arrow.svg" alt="arrow">Lünen</a></li>
+                    <li><a href="./velbert.php"><img src="./img/arrow.svg" alt="arrow">Velbert</a></li>
+                    <li><a href="./viersen.php"><img src="./img/arrow.svg" alt="arrow">Viersen</a></li>
+                    <li><a href="./gladbeck.php"><img src="./img/arrow.svg" alt="arrow">Gladbeck</a></li>
+                    <li><a href="./dorsten.php"><img src="./img/arrow.svg" alt="arrow">Dorsten</a></li>
+                    <li><a href="./arnsberg.php"><img src="./img/arrow.svg" alt="arrow">Arnsberg</a></li>
+                    <li><a href="./luedenscheid.php"><img src="./img/arrow.svg" alt="arrow">Lüdenscheid</a></li>
+                    <li><a href="./lippstadt.php"><img src="./img/arrow.svg" alt="arrow">Lippstadt</a></li>
+                    <li><a href="./kerpen.php"><img src="./img/arrow.svg" alt="arrow">Kerpen</a></li>
+                    <li><a href="./dormagen.php"><img src="./img/arrow.svg" alt="arrow">Dormagen</a></li>
+                    <li><a href="./herten.php"><img src="./img/arrow.svg" alt="arrow">Herten</a></li>
+                    <li><a href="./wesel.php"><img src="./img/arrow.svg" alt="arrow">Wesel</a></li>
+                    <li><a href="./langenfeld.php"><img src="./img/arrow.svg" alt="arrow">Langenfeld</a></li>
+                    <li><a href="./euskirchen.php"><img src="./img/arrow.svg" alt="arrow">Euskirchen</a></li>
+                    <li><a href="./stolberg.php"><img src="./img/arrow.svg" alt="arrow">Stolberg</a></li>
+                    <li><a href="./sankt-Augustin.php"><img src="./img/arrow.svg" alt="arrow">Sankt Augustin</a></li>
+                    <li><a href="./hattingen.php"><img src="./img/arrow.svg" alt="arrow">Hattingen</a></li>
                 </ul>
                 <ul>
                     <li><a href="./hannover.php"><img src="./img/arrow.svg" alt="arrow">Hannover</a></li>
                     <li><a href="./duisburg.php"><img src="./img/arrow.svg" alt="arrow">Duisburg</a></li>
                     <li><a href="./leipzig.php"><img src="./img/arrow.svg" alt="arrow">Leipzig</a></li>
-                    <li><a href="./nürnberg.php"><img src="./img/arrow.svg" alt="arrow">Nürnberg</a></li>
+                    <li><a href="./nuernberg.php"><img src="./img/arrow.svg" alt="arrow">Nürnberg</a></li>
                     <li><a href="./dresden.php"><img src="./img/arrow.svg" alt="arrow">Dresden</a></li>
                     <li><a href="./bochum.php"><img src="./img/arrow.svg" alt="arrow">Bochum</a></li>
                     <li><a href="./wuppertal.php"><img src="./img/arrow.svg" alt="arrow">Wuppertal</a></li>
@@ -134,11 +157,33 @@ require_once('./question.php');
                     <li><a href="./halle.php"><img src="./img/arrow.svg" alt="arrow">Halle(Saale)</a></li>
                     <li><a href="./chemnitz.php"><img src="./img/arrow.svg" alt="arrow">Chemnitz</a></li>
                     <li><a href="./eimsbuettel.php"><img src="./img/arrow.svg" alt="arrow">Eimsbuettel</a></li>
-                    <li><a href="./moenchengladbach.php"><img src="./img/arrow.svg" alt="arrow">Moenchengladbach</a></li>
-                    <li><a href="./münster.php"><img src="./img/arrow.svg" alt="arrow">Münster</a></li>
+                    <li><a href="./moenchengladbach.php"><img src="./img/arrow.svg" alt="arrow">Mönchengladbach</a></li>
+                    <li><a href="./muenster.php"><img src="./img/arrow.svg" alt="arrow">Münster</a></li>
                     <li><a href="./hamburg-Nord.php"><img src="./img/arrow.svg" alt="arrow">Hamburg-Nord</a></li>
                     <li><a href="./marienthal.php"><img src="./img/arrow.svg" alt="arrow">Marienthal</a></li>
                     <li><a href="./wandsbek.php"><img src="./img/arrow.svg" alt="arrow">Wandsbek</a></li>
+                    <li><a href="./bottrop.php"><img src="./img/arrow.svg" alt="arrow">Bottrop</a></li>
+                    <li><a href="./recklinghausen.php"><img src="./img/arrow.svg" alt="arrow">Recklinghausen</a></li>
+                    <li><a href="./moers.php"><img src="./img/arrow.svg" alt="arrow">Moers</a></li>
+                    <li><a href="./guetersloh.php"><img src="./img/arrow.svg" alt="arrow">Gütersloh</a></li>
+                    <li><a href="./iserlohn.php"><img src="./img/arrow.svg" alt="arrow">Iserlohn</a></li>
+                    <li><a href="./ratingen.php"><img src="./img/arrow.svg" alt="arrow">Ratingen</a></li>
+                    <li><a href="./marl.php"><img src="./img/arrow.svg" alt="arrow">Marl</a></li>
+                    <li><a href="./minden.php"><img src="./img/arrow.svg" alt="arrow">Minden</a></li>
+                    <li><a href="./rheine.php"><img src="./img/arrow.svg" alt="arrow">Rheine</a></li>
+                    <li><a href="./troisdorf.php"><img src="./img/arrow.svg" alt="arrow">Troisdorf</a></li>
+                    <li><a href="./detmold.php"><img src="./img/arrow.svg" alt="arrow">Detmold</a></li>
+                    <li><a href="./castrop-Rauxel.php"><img src="./img/arrow.svg" alt="arrow">Castrop-Rauxel</a></li>
+                    <li><a href="./bocholt.php"><img src="./img/arrow.svg" alt="arrow">Bocholt</a></li>
+                    <li><a href="./dinslaken.php"><img src="./img/arrow.svg" alt="arrow">Dinslaken</a></li>
+                    <li><a href="./herford.php"><img src="./img/arrow.svg" alt="arrow">Herford</a></li>
+                    <li><a href="./grevenbroich.php"><img src="./img/arrow.svg" alt="arrow">Grevenbroich</a></li>
+                    <li><a href="./bergheim.php"><img src="./img/arrow.svg" alt="arrow">Bergheim</a></li>
+                    <li><a href="./huerth.php"><img src="./img/arrow.svg" alt="arrow">Hürth</a></li>
+                    <li><a href="./unna.php"><img src="./img/arrow.svg" alt="arrow">Unna</a></li>
+                    <li><a href="./eschweiler.php"><img src="./img/arrow.svg" alt="arrow">Eschweiler</a></li>
+                    <li><a href="./meerbusch.php"><img src="./img/arrow.svg" alt="arrow">Meerbusch</a></li>
+                    <li><a href="./hilden.php"><img src="./img/arrow.svg" alt="arrow">Hilden</a></li>
                 </ul>
             </div>
         </div>
