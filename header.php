@@ -7,23 +7,23 @@
     <meta name=robots content=all>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="title" content="Locksmith DE">
-    <meta name="description" content="We work with locksmith in Germany">
+    <meta name="title" content="<?= $metaTitle ?>">
+    <meta name="description" content="<?= $metaDescr ?>">
     <meta name=format-detection content="telephone=no">
     <link rel="canonical" href="index.html">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
-    <meta property="og:title" content="Locksmith DE">
-    <meta property="og:description" content="We work with locksmith in Germany">
+    <meta property="og:url" content="<?= $url ?>">
+    <meta property="og:title" content="<?= $metaTitle ?>">
+    <meta property="og:description" content="<?= $metaDescr ?>">
     <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://metatags.io/">
-    <meta property="twitter:title" content="Locksmith DE">
-    <meta property="twitter:description" content="We work with locksmith in Germany">
+    <meta property="twitter:url" content="<?= $url ?>">
+    <meta property="twitter:title" content="<?= $metaTitle ?>">
+    <meta property="twitter:description" content="<?= $metaTitle ?>">
     <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
     <link rel="stylesheet" href="./css/styles.css">
 </head>

@@ -2,6 +2,10 @@
     $promoTitle = 'Schlüsseldienst in der Nähe';
     $promoDesc = 'Unser 24h Schlüsseldienst hilft Ihnen jederzeit sofort bei Ihrem Problem!';
 
+    $url = 'https://schluesseldienst-24std.com/index.php';
+    $metaTitle = 'Locksmith DE';
+    $metaDescr = 'We work with locksmith in Germany';
+
     $phoneLink = 'tel:89287888888';
     $phoneText = '8(928)788-88-88';
 
@@ -125,6 +129,12 @@ require_once('./question.php');
                     <li><a href="./stolberg.php"><img src="./img/arrow.svg" alt="arrow">Stolberg</a></li>
                     <li><a href="./sankt-Augustin.php"><img src="./img/arrow.svg" alt="arrow">Sankt Augustin</a></li>
                     <li><a href="./hattingen.php"><img src="./img/arrow.svg" alt="arrow">Hattingen</a></li>
+                    <li><a href="./pulheim.php"><img src="./img/arrow.svg" alt="arrow">Pulheim</a></li>
+                    <li><a href="./ahlen.php"><img src="./img/arrow.svg" alt="arrow">Ahlen</a></li>
+                    <li><a href="./kleve.php"><img src="./img/arrow.svg" alt="arrow">Kleve</a></li>
+                    <li><a href="./gummersbach.php"><img src="./img/arrow.svg" alt="arrow">Gummersbach</a></li>
+                    <li><a href="./erftstadt.php"><img src="./img/arrow.svg" alt="arrow">Erftstadt</a></li>
+                    <li><a href="./rheda-Wiedenbrueck.php"><img src="./img/arrow.svg" alt="arrow">Rheda-Wiedenbrück</a></li>
                 </ul>
                 <ul>
                     <li><a href="./hannover.php"><img src="./img/arrow.svg" alt="arrow">Hannover</a></li>
@@ -184,6 +194,13 @@ require_once('./question.php');
                     <li><a href="./eschweiler.php"><img src="./img/arrow.svg" alt="arrow">Eschweiler</a></li>
                     <li><a href="./meerbusch.php"><img src="./img/arrow.svg" alt="arrow">Meerbusch</a></li>
                     <li><a href="./hilden.php"><img src="./img/arrow.svg" alt="arrow">Hilden</a></li>
+                    <li><a href="./bad-Salzuflen.php"><img src="./img/arrow.svg" alt="arrow">Bad Salzuflen</a></li>
+                    <li><a href="./menden.php"><img src="./img/arrow.svg" alt="arrow">Menden</a></li>
+                    <li><a href="./frechen.php"><img src="./img/arrow.svg" alt="arrow">Frechen</a></li>
+                    <li><a href="./ibbenbueren.php"><img src="./img/arrow.svg" alt="arrow">Ibbenbüren</a></li>
+                    <li><a href="./willich.php"><img src="./img/arrow.svg" alt="arrow">Willich</a></li>
+                    <li><a href="./bergkamen.php"><img src="./img/arrow.svg" alt="arrow">Bergkamen</a></li>
+                    <li><a href="./badOeynhausen.php"><img src="./img/arrow.svg" alt="arrow">Bad Oeynhausen</a></li>
                 </ul>
             </div>
         </div>

@@ -2,6 +2,10 @@
     $promoTitle = 'Schlüsseldienst in Hürth';
     $promoDesc = 'Unser 24h Schlüsseldienst hilft Ihnen jederzeit sofort bei Ihrem Problem!';
 
+    $url = 'https://schluesseldienst-24std.com/huerth.php';
+    $metaTitle = 'Locksmith DE';
+    $metaDescr = 'We work with locksmith in Germany';
+
     $phoneLink = 'tel:89287888888';
     $phoneText = '8(928)788-88-88';
 
