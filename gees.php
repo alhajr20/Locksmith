@@ -1,11 +1,10 @@
 <?php
-    $promoTitle = 'Schlüsseldienst in Bad Münstereifel';
+    $promoTitle = 'Schlüsseldienst in Gees';
     $promoDesc = 'Unser 24h Schlüsseldienst hilft Ihnen jederzeit sofort bei Ihrem Problem!';
 
-    $url = 'https://schluesseldienst-24std.com/badMuenstereifel.php';
+    $url = 'https://schluesseldienst-24std.com/gees.php';
     $metaTitle = 'Locksmith DE';
     $metaDescr = 'We work with locksmith in Germany';
-    $isHomePage = false;
 
     $phoneLink = 'tel:89287888888';
     $phoneText = '8(928)788-88-88';
@@ -64,4 +63,4 @@ require('./ourContacts.php');
 require_once('./question.php');
 require_once('./payment.php');
 require_once('./footer.php');
-?>a
+?>

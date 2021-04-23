@@ -9,6 +9,8 @@
     $phoneLink = 'tel:89287888888';
     $phoneText = '8(928)788-88-88';
 
+    $isHomePage = true;
+
     $advantagesFirstTitle = 'Standort';
     $advantagesFirstDescr = 'Wir sind in Ihrer Nähe';
     $advantagesSecondTitle = 'Geprüft und Qualifiziert';
@@ -65,9 +67,6 @@ require_once('./question.php');
     <section class="branches">
         <h2 class="branches__title">Standorte</h2>
         <div class="container">
-            <div class="col-12 branches__map">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac9a65c2bc1438535cbef374ec37fa71fe2f18c482e4168e6faa9cfb77a52e937&amp;width=100%25&amp;height=600&amp;lang=eu_EU&amp;scroll=false"></script>
-            </div>
             <div class="col-12 branches__links">
                 <ul>
                     <li><a href="./berlin.php"><img src="./img/arrow.svg" alt="arrow">Berlin</a></li>
@@ -80,7 +79,7 @@ require_once('./question.php');
                     <li><a href="./essen.php"><img src="./img/arrow.svg" alt="arrow">Essen</a></li>
                     <li><a href="./duesseldorf.php"><img src="./img/arrow.svg" alt="arrow">Düsseldorf</a></li>
                     <li><a href="./bremen.php"><img src="./img/arrow.svg" alt="arrow">Bremen</a></li>
-                    <li><a href="./aachen.php"><img src="./img/arrow.svg" alt="arrow">Aachen</a></li>//
+                    <li><a href="./aachen.php"><img src="./img/arrow.svg" alt="arrow">Aachen</a></li>
                     <li><a href="./wolfsburg.php"><img src="./img/arrow.svg" alt="arrow">Wolfsburg</a></li>
                     <li><a href="./wuerzburg.php"><img src="./img/arrow.svg" alt="arrow">Wuerzburg</a></li>
                     <li><a href="./paderborn.php"><img src="./img/arrow.svg" alt="arrow">Paderborn</a></li>
@@ -135,6 +134,101 @@ require_once('./question.php');
                     <li><a href="./gummersbach.php"><img src="./img/arrow.svg" alt="arrow">Gummersbach</a></li>
                     <li><a href="./erftstadt.php"><img src="./img/arrow.svg" alt="arrow">Erftstadt</a></li>
                     <li><a href="./rheda-Wiedenbrueck.php"><img src="./img/arrow.svg" alt="arrow">Rheda-Wiedenbrück</a></li>
+                    <li><a href="./bornheim.php"><img src="./img/arrow.svg" alt="arrow">Bornheim</a></li>
+                    <li><a href="./soest.php"><img src="./img/arrow.svg" alt="arrow">Soest</a></li>
+                    <li><a href="./alsdorf.php"><img src="./img/arrow.svg" alt="arrow">Alsdorf</a></li>
+                    <li><a href="./herzogenrath.php"><img src="./img/arrow.svg" alt="arrow">Herzogenrath</a></li>
+                    <li><a href="./buende.php"><img src="./img/arrow.svg" alt="arrow">Bünde</a></li>
+                    <li><a href="./erkrath.php"><img src="./img/arrow.svg" alt="arrow">Erkrath</a></li>
+                    <li><a href="./erkelenz.php"><img src="./img/arrow.svg" alt="arrow">Erkelenz</a></li>
+                    <li><a href="./borken.php"><img src="./img/arrow.svg" alt="arrow">Borken</a></li>
+                    <li><a href="./heidelberg.php"><img src="./img/arrow.svg" alt="arrow">Heinsberg</a></li>
+                    <li><a href="./koenigswinter.php"><img src="./img/arrow.svg" alt="arrow">Koenigswinter</a></li>
+                    <li><a href="./lemgo.php"><img src="./img/arrow.svg" alt="arrow">Lemgo</a></li>
+                    <li><a href="./loehne.php"><img src="./img/arrow.svg" alt="arrow">Loehne</a></li>
+                    <li><a href="./mettmann.php"><img src="./img/arrow.svg" alt="arrow">Mettmann</a></li>
+                    <li><a href="./niederkassel.php"><img src="./img/arrow.svg" alt="arrow">Niederkassel</a></li>
+                    <li><a href="./greven.php"><img src="./img/arrow.svg" alt="arrow">Greven</a></li>
+                    <li><a href="./warendorf.php"><img src="./img/arrow.svg" alt="arrow">Warendorf</a></li>
+                    <li><a href="./wesseling.php"><img src="./img/arrow.svg" alt="arrow">Wesseling</a></li>
+                    <li><a href="./emsdetten.php"><img src="./img/arrow.svg" alt="arrow">Emsdetten</a></li>
+                    <li><a href="./portaWestfalica.php"><img src="./img/arrow.svg" alt="arrow">Porta Westfalica</a></li>
+                    <li><a href="./wermelskirchen.php"><img src="./img/arrow.svg" alt="arrow">Wermelskirchen</a></li>
+                    <li><a href="./kempen.php"><img src="./img/arrow.svg" alt="arrow">Kempen</a></li>
+                    <li><a href="./goch.php"><img src="./img/arrow.svg" alt="arrow">Goch</a></li>
+                    <li><a href="./geldern.php"><img src="./img/arrow.svg" alt="arrow">Geldern</a></li>
+                    <li><a href="./juelich.php"><img src="./img/arrow.svg" alt="arrow">Jülich</a></li>
+                    <li><a href="./oer-Erkenschwick.php"><img src="./img/arrow.svg" alt="arrow">Oer-Erkenschwick</a></li>
+                    <li><a href="./emmerichAmRhein.php"><img src="./img/arrow.svg" alt="arrow">Emmerich am Rhein</a></li>
+                    <li><a href="./werl"><img src="./img/arrow.svg" alt="arrow">Werl</a></li>
+                    <li><a href="./lohmar.php"><img src="./img/arrow.svg" alt="arrow">Lohmar</a></li>
+                    <li><a href="./ennepetal.php"><img src="./img/arrow.svg" alt="arrow">Ennepetal</a></li>
+                    <li><a href="./werne.php"><img src="./img/arrow.svg" alt="arrow">Werne</a></li>
+                    <li><a href="./toenisvorst.php"><img src="./img/arrow.svg" alt="arrow">Tönisvorst</a></li>
+                    <li><a href="./oelde.php"><img src="./img/arrow.svg" alt="arrow">Oelde</a></li>
+                    <li><a href="./roesrath.php"><img src="./img/arrow.svg" alt="arrow">Rösrath</a></li>
+                    <li><a href="./wegberg.php"><img src="./img/arrow.svg" alt="arrow">Wegberg</a></li>
+                    <li><a href="./leichlingen.php"><img src="./img/arrow.svg" alt="arrow">Leichlingen</a></li>
+                    <li><a href="./geilenkirchen.php"><img src="./img/arrow.svg" alt="arrow">Geilenkirchen</a></li>
+                    <li><a href="./neukirchen-Vluyn.php"><img src="./img/arrow.svg" alt="arrow">Neukirchen-Vluyn</a></li>
+                    <li><a href="./baesweiler.php"><img src="./img/arrow.svg" alt="arrow">Baesweiler</a></li>
+                    <li><a href="./schlossHolte-Stukenbrock.php"><img src="./img/arrow.svg" alt="arrow">Schloß Holte-Stukenbrock</a></li>
+                    <li><a href="./heiligenhaus.php"><img src="./img/arrow.svg" alt="arrow">Heiligenhaus</a></li>
+                    <li><a href="./badHonnef.php"><img src="./img/arrow.svg" alt="arrow">Bad Honnef</a></li>
+                    <li><a href="./brilon.php"><img src="./img/arrow.svg" alt="arrow">Brilon</a></li>
+                    <li><a href="./lennestadt.php"><img src="./img/arrow.svg" alt="arrow">Lennestadt</a></li>
+                    <li><a href="./petershagen.php"><img src="./img/arrow.svg" alt="arrow">Petershagen</a></li>
+                    <li><a href="./schmallenberg.php"><img src="./img/arrow.svg" alt="arrow">Schmallenberg</a></li>
+                    <li><a href="./meckenheim.php"><img src="./img/arrow.svg" alt="arrow">Meckenheim</a></li>
+                    <li><a href="./sprockhoevel.php"><img src="./img/arrow.svg" alt="arrow">Sprockhövel</a></li>
+                    <li><a href="./olpe.php"><img src="./img/arrow.svg" alt="arrow">Olpe</a></li>
+                    <li><a href="./uebach-Palenberg.php"><img src="./img/arrow.svg" alt="arrow">Übach-Palenberg</a></li>
+                    <li><a href="./alfter.php"><img src="./img/arrow.svg" alt="arrow">Alfter</a></li>
+                    <li><a href="./netphen.php"><img src="./img/arrow.svg" alt="arrow">Netphen</a></li>
+                    <li><a href="./herdecke.php"><img src="./img/arrow.svg" alt="arrow">Herdecke</a></li>
+                    <li><a href="./lengerich.php"><img src="./img/arrow.svg" alt="arrow">Lengerich</a></li>
+                    <li><a href="./radevormwald.php"><img src="./img/arrow.svg" alt="arrow">Radevormwald</a></li>
+                    <li><a href="./elsdorf.php"><img src="./img/arrow.svg" alt="arrow">Elsdorf</a></li>
+                    <li><a href="./versmold.php"><img src="./img/arrow.svg" alt="arrow">Versmold</a></li>
+                    <li><a href="./bueren.php"><img src="./img/arrow.svg" alt="arrow">Büren</a></li>
+                    <li><a href="./lindlar.php"><img src="./img/arrow.svg" alt="arrow">Lindlar</a></li>
+                    <li><a href="./wipperfuerth.php"><img src="./img/arrow.svg" alt="arrow">Wipperfürth</a></li>
+                    <li><a href="./froendenberg.php"><img src="./img/arrow.svg" alt="arrow">Fröndenberg</a></li>
+                    <li><a href="./enger.php"><img src="./img/arrow.svg" alt="arrow">Enger</a></li>
+                    <li><a href="./senden.php"><img src="./img/arrow.svg" alt="arrow">Senden</a></li>
+                    <li><a href="./hoerstel.php"><img src="./img/arrow.svg" alt="arrow">Hörstel</a></li>
+                    <li><a href="./stadtlohn.php"><img src="./img/arrow.svg" alt="arrow">Stadtlohn</a></li>
+                    <li><a href="./telgte.php"><img src="./img/arrow.svg" alt="arrow">Telgte</a></li>
+                    <li><a href="./hiddenhausen.php"><img src="./img/arrow.svg" alt="arrow">Hiddenhausen</a></li>
+                    <li><a href="./kuerten.php"><img src="./img/arrow.svg" alt="arrow">Kürten</a></li>
+                    <li><a href="./nottulns.php"><img src="./img/arrow.svg" alt="arrow">Nottuln</a></li>
+                    <li><a href="./waldbroel.php"><img src="./img/arrow.svg" alt="arrow">Waldbröl</a></li>
+                    <li><a href="./rhede.php"><img src="./img/arrow.svg" alt="arrow">Rhede</a></li>
+                    <li><a href="./schwalmtal.php"><img src="./img/arrow.svg" alt="arrow">Schwalmtal</a></li>
+                    <li><a href="./badBerleburg.php"><img src="./img/arrow.svg" alt="arrow">Bad Berleburg</a></li>
+                    <li><a href="./swisttal.php"><img src="./img/arrow.svg" alt="arrow">Swisttal</a></li>
+                    <li><a href="./bergneustadt.php"><img src="./img/arrow.svg" alt="arrow">Bergneustadt</a></li>
+                    <li><a href="./reichshof.php"><img src="./img/arrow.svg" alt="arrow">Reichshof</a></li>
+                    <li><a href="./burscheid.php"><img src="./img/arrow.svg" alt="arrow">Burscheid</a></li>
+                    <li><a href="./freudenberg.php"><img src="./img/arrow.svg" alt="arrow">Freudenberg</a></li>
+                    <li><a href="./weilerswist.php"><img src="./img/arrow.svg" alt="arrow">Weilerswist</a></li>
+                    <li><a href="./badMuenstereifel.php"><img src="./img/arrow.svg" alt="arrow">Bad Münstereifel</a></li>
+                    <li><a href="./gescher.php"><img src="./img/arrow.svg" alt="arrow">Gescher</a></li>
+                    <li><a href="./holzwickede.php"><img src="./img/arrow.svg" alt="arrow">Holzwickede</a></li>
+                    <li><a href="./finnentrop.php"><img src="./img/arrow.svg" alt="arrow">Finnentrop</a></li>
+                    <li><a href="./hoevelhof.php"><img src="./img/arrow.svg" alt="arrow">Hövelhof</a></li>
+                    <li><a href="./straelen.php"><img src="./img/arrow.svg" alt="arrow">Straelen</a></li>
+                    <li><a href="./brakel.php"><img src="./img/arrow.svg" alt="arrow">Brakel</a></li>
+                    <li><a href="./halver.php"><img src="./img/arrow.svg" alt="arrow">Halver</a></li>
+                    <li><a href="./kirchlengern.php"><img src="./img/arrow.svg" alt="arrow">Kirchlengern</a></li>
+                    <li><a href="./brueggen.php"><img src="./img/arrow.svg" alt="arrow">Brüggen</a></li>
+                    <li><a href="./drensteinfurt.php"><img src="./img/arrow.svg" alt="arrow">Drensteinfurt</a></li>
+                    <li><a href="./simmerath.php"><img src="./img/arrow.svg" alt="arrow">Simmerath</a></li>
+                    <li><a href="./hille.php"><img src="./img/arrow.svg" alt="arrow">Hille</a></li>
+                    <li><a href="./odenthal.php"><img src="./img/arrow.svg" alt="arrow">Odenthal</a></li>
+                    <li><a href="./reken.php"><img src="./img/arrow.svg" alt="arrow">Reken</a></li>
+                    <li><a href="./hilchenbach.php"><img src="./img/arrow.svg" alt="arrow">Hilchenbach</a></li>
+                    <li><a href="./spenge.php"><img src="./img/arrow.svg" alt="arrow">Spenge</a></li>
                 </ul>
                 <ul>
                     <li><a href="./hannover.php"><img src="./img/arrow.svg" alt="arrow">Hannover</a></li>
@@ -201,6 +295,101 @@ require_once('./question.php');
                     <li><a href="./willich.php"><img src="./img/arrow.svg" alt="arrow">Willich</a></li>
                     <li><a href="./bergkamen.php"><img src="./img/arrow.svg" alt="arrow">Bergkamen</a></li>
                     <li><a href="./badOeynhausen.php"><img src="./img/arrow.svg" alt="arrow">Bad Oeynhausen</a></li>
+                    <li><a href="./gronau.php"><img src="./img/arrow.svg" alt="arrow">Gronau</a></li>
+                    <li><a href="./hennef.php"><img src="./img/arrow.svg" alt="arrow">Hennef</a></li>
+                    <li><a href="./duelmen.php"><img src="./img/arrow.svg" alt="arrow">duelmen</a></li>
+                    <li><a href="./schwerte.php"><img src="./img/arrow.svg" alt="arrow">Schwerte</a></li>
+                    <li><a href="./bruehl.php"><img src="./img/arrow.svg" alt="arrow">Bruehl</a></li>
+                    <li><a href="./kaarst.php"><img src="./img/arrow.svg" alt="arrow">Kaarst</a></li>
+                    <li><a href="./kamen.php"><img src="./img/arrow.svg" alt="arrow">Kamen</a></li>
+                    <li><a href="./nettetal.php"><img src="./img/arrow.svg" alt="arrow">Nettetal</a></li>
+                    <li><a href="./siegburg.php"><img src="./img/arrow.svg" alt="arrow">Siegburg</a></li>
+                    <li><a href="./monheimAmRhein.php"><img src="./img/arrow.svg" alt="arrow">Monheim am Rhein</a></li>
+                    <li><a href="./hueckelhoven.php"><img src="./img/arrow.svg" alt="arrow">Hueckelhoven</a></li>
+                    <li><a href="./ahaus.php"><img src="./img/arrow.svg" alt="arrow">Ahaus</a></li>
+                    <li><a href="./wuerselen.php"><img src="./img/arrow.svg" alt="arrow">Würselen</a></li>
+                    <li><a href="./halternAmSee.php"><img src="./img/arrow.svg" alt="arrow">Haltern am See</a></li>
+                    <li><a href="./kamp-Lintfort.php"><img src="./img/arrow.svg" alt="arrow">Kamp-Lintfort</a></li>
+                    <li><a href="./beckum.php"><img src="./img/arrow.svg" alt="arrow">Beckum</a></li>
+                    <li><a href="./coesfeld.php"><img src="./img/arrow.svg" alt="arrow">Coesfeld</a></li>
+                    <li><a href="./voerde.php"><img src="./img/arrow.svg" alt="arrow">Voerde</a></li>
+                    <li><a href="./lage.php"><img src="./img/arrow.svg" alt="arrow">Lage</a></li>
+                    <li><a href="./datteln.php"><img src="./img/arrow.svg" alt="arrow">Datteln</a></li>
+                    <li><a href="./steinfurt.php"><img src="./img/arrow.svg" alt="arrow">Steinfurt</a></li>
+                    <li><a href="./hemer.php"><img src="./img/arrow.svg" alt="arrow">Hemer</a></li>
+                    <li><a href="./korschenbroich.php"><img src="./img/arrow.svg" alt="arrow">Korschenbroich</a></li>
+                    <li><a href="./delbrueck.php"><img src="./img/arrow.svg" alt="arrow">Delbrück</a></li>
+                    <li><a href="./kreuztal.php"><img src="./img/arrow.svg" alt="arrow">Kreuztal</a></li>
+                    <li><a href="./rheinberg.php"><img src="./img/arrow.svg" alt="arrow">Rheinberg</a></li>
+                    <li><a href="./gevelsberg.php"><img src="./img/arrow.svg" alt="arrow">Gevelsberg</a></li>
+                    <li><a href="./haan.php"><img src="./img/arrow.svg" alt="arrow">Haan</a></li>
+                    <li><a href="./meschede.php"><img src="./img/arrow.svg" alt="arrow">Meschede</a></li>
+                    <li><a href="./rietberg.php"><img src="./img/arrow.svg" alt="arrow">Rietberg</a></li>
+                    <li><a href="./waltrop.php"><img src="./img/arrow.svg" alt="arrow">Waltrop</a></li>
+                    <li><a href="./hoexter.php"><img src="./img/arrow.svg" alt="arrow">Hoexter</a></li>
+                    <li><a href="./schwelm.php"><img src="./img/arrow.svg" alt="arrow">Schwelm</a></li>
+                    <li><a href="./kevelaer.php"><img src="./img/arrow.svg" alt="arrow">Kevelaer</a></li>
+                    <li><a href="./sundern.php"><img src="./img/arrow.svg" alt="arrow">Sundern</a></li>
+                    <li><a href="./mechernich.php"><img src="./img/arrow.svg" alt="arrow">Mechernich</a></li>
+                    <li><a href="./wetter.php"><img src="./img/arrow.svg" alt="arrow">Wetter</a></li>
+                    <li><a href="./overath.php"><img src="./img/arrow.svg" alt="arrow">Overath</a></li>
+                    <li><a href="./rheinbach.php"><img src="./img/arrow.svg" alt="arrow">Rheinbach</a></li>
+                    <li><a href="./hamminkeln.php"><img src="./img/arrow.svg" alt="arrow">Hamminkeln</a></li>
+                    <li><a href="./selm.php"><img src="./img/arrow.svg" alt="arrow">Selm</a></li>
+                    <li><a href="./luebbecke.php"><img src="./img/arrow.svg" alt="arrow">Lübbecke</a></li>
+                    <li><a href="./verl.php"><img src="./img/arrow.svg" alt="arrow">Verl</a></li>
+                    <li><a href="./plettenberg.php"><img src="./img/arrow.svg" alt="arrow">Plettenberg</a></li>
+                    <li><a href="./wiehl.php"><img src="./img/arrow.svg" alt="arrow">Wiehl</a></li>
+                    <li><a href="./salzkotten.php"><img src="./img/arrow.svg" alt="arrow">Salzkotten</a></li>
+                    <li><a href="./luedinghausen.php"><img src="./img/arrow.svg" alt="arrow">Lüdinghausen</a></li>
+                    <li><a href="./espelkamp.php"><img src="./img/arrow.svg" alt="arrow">Espelkamp</a></li>
+                    <li><a href="./warstein.php"><img src="./img/arrow.svg" alt="arrow">Warstein</a></li>
+                    <li><a href="./attendorn.php"><img src="./img/arrow.svg" alt="arrow">Attendorn</a></li>
+                    <li><a href="./bedburg.php"><img src="./img/arrow.svg" alt="arrow">Bedburg</a></li>
+                    <li><a href="./juechen.php"><img src="./img/arrow.svg" alt="arrow">Jüchen</a></li>
+                    <li><a href="./warburg.php"><img src="./img/arrow.svg" alt="arrow">Warburg</a></li>
+                    <li><a href="./vreden.php"><img src="./img/arrow.svg" alt="arrow">Vreden</a></li>
+                    <li><a href="./xanten.php"><img src="./img/arrow.svg" alt="arrow">Xanten</a></li>
+                    <li><a href="./halle.php"><img src="./img/arrow.svg" alt="arrow">Halle</a></li>
+                    <li><a href="./geseke.php"><img src="./img/arrow.svg" alt="arrow">Geseke</a></li>
+                    <li><a href="./gees.php"><img src="./img/arrow.svg" alt="arrow">Rees</a></li>
+                    <li><a href="./wuelfrath.php"><img src="./img/arrow.svg" alt="arrow">Wülfrath</a></li>
+                    <li><a href="./steinhagen.php"><img src="./img/arrow.svg" alt="arrow">Steinhagen</a></li>
+                    <li><a href="./wachtberg.php"><img src="./img/arrow.svg" alt="arrow">Wachtberg</a></li>
+                    <li><a href="./meinerzhagen.php"><img src="./img/arrow.svg" alt="arrow">Meinerzhagen</a></li>
+                    <li><a href="./zuelpich.php"><img src="./img/arrow.svg" alt="arrow">Zülpich</a></li>
+                    <li><a href="./wilnsdorf.php"><img src="./img/arrow.svg" alt="arrow">Wilnsdorf</a></li>
+                    <li><a href="./ennigerloh.php"><img src="./img/arrow.svg" alt="arrow">Ennigerloh</a></li>
+                    <li><a href="./neunkirchen-Seelscheid.php"><img src="./img/arrow.svg" alt="arrow">Neunkirchen-Seelscheid</a></li>
+                    <li><a href="./ochtrup.php"><img src="./img/arrow.svg" alt="arrow">Ochtrup</a></li>
+                    <li><a href="./wenden.php"><img src="./img/arrow.svg" alt="arrow">Wenden</a></li>
+                    <li><a href="./marsberg.php"><img src="./img/arrow.svg" alt="arrow">Marsberg</a></li>
+                    <li><a href="./engelskirchen.php"><img src="./img/arrow.svg" alt="arrow">Engelskirchen</a></li>
+                    <li><a href="./badDriburg.php"><img src="./img/arrow.svg" alt="arrow">Bad Driburg</a></li>
+                    <li><a href="./eitorf.php"><img src="./img/arrow.svg" alt="arrow">Eitorf</a></li>
+                    <li><a href="./windeck.php"><img src="./img/arrow.svg" alt="arrow">Windeck</a></li>
+                    <li><a href="./wassenberg.php"><img src="./img/arrow.svg" alt="arrow">Wassenberg</a></li>
+                    <li><a href="./vlotho.php"><img src="./img/arrow.svg" alt="arrow">Vlotho</a></li>
+                    <li><a href="./boenen.php"><img src="./img/arrow.svg" alt="arrow">Bönen</a></li>
+                    <li><a href="./werdohl.php"><img src="./img/arrow.svg" alt="arrow">Werdohl</a></li>
+                    <li><a href="./kreuzau.php"><img src="./img/arrow.svg" alt="arrow">Kreuzau</a></li>
+                    <li><a href="./horn-BadMeinberg.php"><img src="./img/arrow.svg" alt="arrow">Horn-Bad Meinberg</a></li>
+                    <li><a href="./oerlinghausen.php"><img src="./img/arrow.svg" alt="arrow">Oerlinghausen</a></li>
+                    <li><a href="./nuembrecht.php"><img src="./img/arrow.svg" alt="arrow">Nümbrecht</a></li>
+                    <li><a href="./altena.php"><img src="./img/arrow.svg" alt="arrow">Altena</a></li>
+                    <li><a href="./leopoldshoehe.php"><img src="./img/arrow.svg" alt="arrow">Leopoldshöhe</a></li>
+                    <li><a href="./badLippspringe.php"><img src="./img/arrow.svg" alt="arrow">Bad Lippspringe</a></li>
+                    <li><a href="./kierspe.php"><img src="./img/arrow.svg" alt="arrow">Kierspe</a></li>
+                    <li><a href="./erwitte.php"><img src="./img/arrow.svg" alt="arrow">Erwitte</a></li>
+                    <li><a href="./herzebrock-Clarholz.php"><img src="./img/arrow.svg" alt="arrow">Herzebrock-Clarholz</a></li>
+                    <li><a href="./niederkruechten.php"><img src="./img/arrow.svg" alt="arrow">Niederkrüchten</a></li>
+                    <li><a href="./ascheberg.php"><img src="./img/arrow.svg" alt="arrow">Ascheberg</a></li>
+                    <li><a href="./rahden.php"><img src="./img/arrow.svg" alt="arrow">Rahden</a></li>
+                    <li><a href="./blomberg.php"><img src="./img/arrow.svg" alt="arrow">Blomberg</a></li>
+                    <li><a href="./hueckeswagen.php"><img src="./img/arrow.svg" alt="arrow">Hückeswagen</a></li>
+                    <li><a href="./burbach.php"><img src="./img/arrow.svg" alt="arrow">Burbach</a></li>
+                    <li><a href="./grefrath.php"><img src="./img/arrow.svg" alt="arrow">Grefrath</a></li>
+                    <li><a href="./olsberg.php"><img src="./img/arrow.svg" alt="arrow">Olsberg</a></li>
                 </ul>
             </div>
         </div>

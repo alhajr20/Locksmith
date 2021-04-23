@@ -10,7 +10,10 @@
     <meta name="title" content="<?= $metaTitle ?>">
     <meta name="description" content="<?= $metaDescr ?>">
     <meta name=format-detection content="telephone=no">
-    <link rel="canonical" href="index.html">
+
+    <?php if (true == $isHomePage): ?>
+        <link rel="canonical" href="index.html">
+    <?php endif; ?>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">

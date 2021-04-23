@@ -3,6 +3,7 @@
         <h2 class="aboutUs__title">Über uns</h2>
         <div class="row">
             <div class="col-6 aboutUs__text">
+                <?= $ok ?>
                 <p>
                     <?= $aboutUsText ?>
                 </p>
