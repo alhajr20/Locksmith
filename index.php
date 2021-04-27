@@ -229,6 +229,18 @@ require_once('./question.php');
                     <li><a href="./reken.php"><img src="./img/arrow.svg" alt="arrow">Reken</a></li>
                     <li><a href="./hilchenbach.php"><img src="./img/arrow.svg" alt="arrow">Hilchenbach</a></li>
                     <li><a href="./spenge.php"><img src="./img/arrow.svg" alt="arrow">Spenge</a></li>
+                    <li><a href="./chiemsee.php"><img src="./img/arrow.svg" alt="arrow">Chiemsee</a></li>
+                    <li><a href="./guttenberg.php"><img src="./img/arrow.svg" alt="arrow">Guttenberg</a></li>
+                    <li><a href="./tschirn.php"><img src="./img/arrow.svg" alt="arrow">Tschirn</a></li>
+                    <li><a href="./ermershausen.php"><img src="./img/arrow.svg" alt="arrow">Ermershausen</a></li>
+                    <li><a href="./willmars.php"><img src="./img/arrow.svg" alt="arrow">Willmars</a></li>
+                    <li><a href="./hohenaltheim.php"><img src="./img/arrow.svg" alt="arrow">Hohenaltheim</a></li>
+                    <li><a href="./ebershausen.php"><img src="./img/arrow.svg" alt="arrow">Ebershausen</a></li>
+                    <li><a href="./gleiritsch.php"><img src="./img/arrow.svg" alt="arrow">Gleiritsch</a></li>
+                    <li><a href="./philippsreut.php"><img src="./img/arrow.svg" alt="arrow">Philippsreut</a></li>
+                    <li><a href="./hemmersheim.php"><img src="./img/arrow.svg" alt="arrow">Hemmersheim</a></li>
+                    <li><a href="./riedenheim.php"><img src="./img/arrow.svg" alt="arrow">Riedenheim</a></li>
+                    <li><a href="./aubstadt.php"><img src="./img/arrow.svg" alt="arrow">Aubstadt</a></li>
                 </ul>
                 <ul>
                     <li><a href="./hannover.php"><img src="./img/arrow.svg" alt="arrow">Hannover</a></li>
@@ -390,6 +402,17 @@ require_once('./question.php');
                     <li><a href="./burbach.php"><img src="./img/arrow.svg" alt="arrow">Burbach</a></li>
                     <li><a href="./grefrath.php"><img src="./img/arrow.svg" alt="arrow">Grefrath</a></li>
                     <li><a href="./olsberg.php"><img src="./img/arrow.svg" alt="arrow">Olsberg</a></li>
+                    <li><a href="./balderschwang.php"><img src="./img/arrow.svg" alt="arrow">Balderschwang</a></li>
+                    <li><a href="./stadlern.php"><img src="./img/arrow.svg" alt="arrow">Stadlern</a></li>
+                    <li><a href="./perasdorf.php"><img src="./img/arrow.svg" alt="arrow">Perasdorf</a></li>
+                    <li><a href="./forheim.php"><img src="./img/arrow.svg" alt="arrow">Forheim</a></li>
+                    <li><a href="./herbstadt.php"><img src="./img/arrow.svg" alt="arrow">Herbstadt</a></li>
+                    <li><a href="./schwaigen.php"><img src="./img/arrow.svg" alt="arrow">Schwaigen</a></li>
+                    <li><a href="./loitzendorf.php"><img src="./img/arrow.svg" alt="arrow">Loitzendorf</a></li>
+                    <li><a href="./ohrenbach.php"><img src="./img/arrow.svg" alt="arrow">Ohrenbach</a></li>
+                    <li><a href="./wattendorf.php"><img src="./img/arrow.svg" alt="arrow">Wattendorf</a></li>
+                    <li><a href="./roegling.php"><img src="./img/arrow.svg" alt="arrow">Roegling</a></li>
+                    <li><a href="./jettenbach.php"><img src="./img/arrow.svg" alt="arrow">Jettenbach</a></li>
                 </ul>
             </div>
         </div>
